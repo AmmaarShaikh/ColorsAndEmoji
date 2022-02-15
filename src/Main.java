@@ -2,7 +2,7 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Caterpillar harry = new Caterpillar("Harry");
+        //Caterpillar harry = new Caterpillar("Harry");
 
       /* A. uncomment code below first
             then study my code and see how colors work! */
@@ -22,7 +22,11 @@ public class Main
             check out https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html */
 
         //try {
-        //  harry.animate();
-        //} catch (Exception e) { }
+          //harry.animate();
+       // } catch (Exception e) { }
+
+        NewClass darius = new NewClass("Darius");
+        darius.start();
+        darius.printCurrency();
     }
 }
